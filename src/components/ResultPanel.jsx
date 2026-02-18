@@ -8,7 +8,7 @@ const DISEASE_META = {
   Dengue:         { icon: "🦟", color: "#e63c3c", ward: "Infectious Disease Ward" },
   Road_Accidents: { icon: "🚗", color: "#f59e0b", ward: "Emergency / Trauma Ward" },
   Heart_Patients: { icon: "❤️", color: "#ef4444", ward: "Cardiac ICU" },
-  Hadisi_Anthuru: { icon: "🤢", color: "#8b5cf6", ward: "General Medicine Ward" },
+  emegency_case: { icon: "🤢", color: "#8b5cf6", ward: "General Medicine Ward" },
   Tuberculosis:   { icon: "🫁", color: "#0a5c7f", ward: "Respiratory Ward" },
   Cold:           { icon: "🤧", color: "#3b82f6", ward: "OPD / Outpatient" },
   Fever:          { icon: "🌡️", color: "#10b981", ward: "General Ward" },
