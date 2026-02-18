@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap");
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --primary:        #0a5c7f;
+  --primary-light:  #1399c6;
+  --primary-dark:   #063d55;
+  --accent:         #00c8a0;
+  --accent-dark:    #009e80;
+  --accent-light:   #e0faf5;
+  --danger:         #e63c3c;
+  --warning:        #f59e0b;
+  --success:        #10b981;
+  --bg:             #eef2f7;
+  --card:           #ffffff;
+  --border:         #d6e0ec;
+  --text-1:         #0f1e2e;
+  --text-2:         #4a6178;
+  --text-3:         #8ba0b4;
+  --sh-sm:          0 1px 4px rgba(10,92,127,.07);
+  --sh-md:          0 4px 20px rgba(10,92,127,.11);
+  --sh-lg:          0 8px 40px rgba(10,92,127,.16);
+  --r:              14px;
+  --r-sm:           8px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  color: var(--text-1);
+  min-height: 100vh;
+}
+
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--primary-light); border-radius: 3px; }
