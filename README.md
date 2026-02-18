@@ -1,6 +1,6 @@
 # 🏥 Hospital Disease Prediction System — Frontend
+![Disease Prediction Result](https://github.com/Maheeshasamarasinhe/hospital-Resource-Management-frontend/blob/main/sample%20-img.png)
 
-![Disease Prediction Result](https://raw.githubusercontent.com/Maheeshasamarasinhe/hospital-Resource-Management-with-AI/main/predicted_data.png)
 
 A modern, AI-powered hospital disease prediction dashboard built with **React + Vite**. This frontend communicates with a Flask ML backend to predict monthly disease case counts based on environmental, social, and historical indicators.
 
@@ -97,6 +97,8 @@ Each UI concern is isolated into its own component:
 - [`Navbar`](src/components/Navbar.jsx) — site-wide navigation
 
 ### 5. 🎨 Dynamic Styling with Inline Computed Styles
+![Disease Prediction Result](https://raw.githubusercontent.com/Maheeshasamarasinhe/hospital-Resource-Management-with-AI/main/predicted_data.png)
+
 The **Public Awareness slider** dynamically changes badge color based on value:
 ```js
 const awarLevel =
