@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './PredictionForm.css';
 
-const API = 'http://localhost:5000';
+// Use proxy in development, or set VITE_API_URL in production
+const API = import.meta.env.VITE_API_URL || '/api';
 
 const MONTHS = [
   'January','February','March','April','May','June',
