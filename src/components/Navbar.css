@@ -1,0 +1,54 @@
+.navbar {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 60%, var(--primary-light) 100%);
+  box-shadow: var(--sh-lg);
+  position: sticky; top: 0; z-index: 100;
+}
+
+.navbar-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 28px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand { display: flex; align-items: center; gap: 14px; }
+
+.nav-logo {
+  width: 44px; height: 44px;
+  background: rgba(255,255,255,.15);
+  border: 1.5px solid rgba(255,255,255,.3);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+}
+.nav-logo svg { width: 24px; height: 24px; }
+
+.nav-title-group { display: flex; flex-direction: column; }
+.nav-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15rem; font-weight: 700;
+  color: #fff; letter-spacing: .3px; line-height: 1.2;
+}
+.nav-subtitle { font-size: .72rem; color: rgba(255,255,255,.65); font-weight: 400; }
+
+.nav-badge {
+  display: flex; align-items: center; gap: 6px;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: .8rem; font-weight: 500; color: #fff;
+}
+.badge-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%,100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: .6; transform: scale(1.3); }
+}
