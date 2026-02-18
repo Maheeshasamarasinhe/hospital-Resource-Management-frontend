@@ -1,5 +1,7 @@
 # 🏥 Hospital Disease Prediction System — Frontend
 
+![Disease Prediction Result](https://raw.githubusercontent.com/Maheeshasamarasinhe/hospital-Resource-Management-with-AI/main/predicted_data.png)
+
 A modern, AI-powered hospital disease prediction dashboard built with **React + Vite**. This frontend communicates with a Flask ML backend to predict monthly disease case counts based on environmental, social, and historical indicators.
 
 ---
